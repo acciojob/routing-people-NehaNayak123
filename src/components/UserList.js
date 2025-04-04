@@ -20,7 +20,7 @@ const UserList = () => {
             setLoading(false)
         })
     },[])
-    if(loading) return <p>Loading Users...</p>
+    if(loading) return <p>Loading...</p>
   return (
     <div>
         
