@@ -10,7 +10,6 @@ const App = () => {
   return (
     <Router>
       <div>
-        <h1>User List</h1>
         <Routes>
           <Route path="/" element={<UserList/>}/>
           <Route path="/user/:userId" element={<UserDetails/>}/>
